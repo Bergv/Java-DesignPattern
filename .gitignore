@@ -2,7 +2,7 @@
 *.class
 *.project
 *.classpath
-*.perfs
+*.prefs
 
 
 # Log file
