@@ -27,7 +27,6 @@ public class Test {
             if (a == 3) {
                 list2.add(99);
             }
-
         }
 
     }
