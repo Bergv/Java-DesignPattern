@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.App",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FilterChain<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.FilterChain",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-T2<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.T2",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.Test",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test2<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.Test2",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestString<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.TestString",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Tt<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.Tt",
+            "projectName": "designpattern"
+        }
+    ]
+}
