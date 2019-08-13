@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HeapSortAndTopN",
+            "request": "launch",
+            "mainClass": "com.designpattern.topn.HeapSortAndTopN",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T3",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.T3",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"

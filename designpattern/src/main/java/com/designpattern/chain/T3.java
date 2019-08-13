@@ -1,10 +1,11 @@
 package com.designpattern.chain;
 
 /**
- * T2
+ * T3
  */
-public class T2 {
+public class T3 {
+
     public static void main(String[] args) {
-        System.out.println(6667777);
+        System.out.println(66666666);
     }
 }
