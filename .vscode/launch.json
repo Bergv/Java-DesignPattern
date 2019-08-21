@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DeleteNum",
+            "request": "launch",
+            "mainClass": "com.zcoding.DeleteNum",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HeapSortAndTopN",
             "request": "launch",
             "mainClass": "com.designpattern.topn.HeapSortAndTopN",
