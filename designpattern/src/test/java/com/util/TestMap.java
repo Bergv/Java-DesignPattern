@@ -1,5 +1,7 @@
 package com.util;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -39,4 +41,12 @@ public class TestMap {
     private boolean filter(Entry<Integer, String> e) {
         return true;
     }
+
+    @Test
+    void tset3() {
+        Date d1 = new Date();
+        SimpleDateFormat fomatter = new SimpleDateFormat("yyyy-MM-dd");
+        System.out.println(fomatter.format(d1));
+    }
+
 }

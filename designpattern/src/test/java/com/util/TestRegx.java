@@ -152,4 +152,57 @@ public class TestRegx {
         // assertTrue(matches);
         assertTrue(true);
     }
+
+    @Test
+    void test3a() {
+        // http://deerchao.net/tutorials/regex/regex.htm
+        // https://www.cnblogs.com/yw0219/p/8047938.html
+        // https://www.runoob.com/java/java-regular-expressions.html
+
+        // 待匹配的字符串："Hello"Hi"Nice"Good
+        String content = "\"Hello\"Hi\"Nice\"Good";
+        System.out.println(content);
+        // 匹配双引号的正则表达式
+        String pattStr = "(?<=\").*?(?=\")"; // 利用先行和后发断言规则 提取双引号中间的部分
+        // 创建Pattern并进行匹配
+        Pattern pattern = Pattern.compile(pattStr);
+        Matcher matcher = pattern.matcher(content);
+        // 将所有匹配的结果打印输出
+        while (matcher.find()) {
+            System.out.println(matcher.group());
+        }
+        assertTrue(true);
+    }
+
+    @Test
+    void test3a1() {
+        String str = "this is \"Tom\" and \"Eric\"， this is \"Bruce lee\", he is a chinese, name is \"李小龙\"。";
+        System.out.println(str);
+        Pattern p = Pattern.compile("\"(.*?)\""); // 提取双引号中间的部分
+        Matcher m = p.matcher(str);
+        int i = 0;
+        while (m.find()) {
+            System.out.println(m.group());
+            str = str.replace(m.group(), "" + (i++));
+        }
+        System.out.println(str);
+        assertTrue(true);
+    }
+
+    @Test
+    void test3b() {
+        String str = "  \"MW000420\" , \"P0001\" ";
+        System.out.println(str);
+
+        System.out.println("===========匹配字符串===========");
+        // 匹配str中所有字符串hello，这时str中3个hello都能匹配上，通过下面打印的匹配上的字符串的位置可以看出
+        String regx = "MW000420";
+        Pattern p = Pattern.compile(regx);
+        Matcher m = p.matcher(str);
+        while (m.find()) {
+            System.out.println(m.group() + "-->位置：[" + m.start() + "," + m.end() + "]");
+        }
+
+        assertTrue(true);
+    }
 }
