@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Count",
+            "request": "launch",
+            "mainClass": "com.zcoding.Count",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Bom",
+            "request": "launch",
+            "mainClass": "com.zcoding.Bom",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DeleteNum",
             "request": "launch",
             "mainClass": "com.zcoding.DeleteNum",
