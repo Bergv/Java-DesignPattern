@@ -39,5 +39,6 @@ public class DeleteNum {
             }
             System.out.println(list.get(0));
         }
+        sc.close();
     }
 }

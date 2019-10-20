@@ -53,7 +53,7 @@ public class Bom {
         }
         int count = 0;
         int m = ss.length;
-        int n = ss[1].length;
+        int n = ss[i].length;
         if (0 <= i - 1 && "*".equals(ss[i - 1][j])) { // 上
             count++;
         }
@@ -77,6 +77,64 @@ public class Bom {
         }
         if (i + 1 < m && j + 1 < n && "*".equals(ss[i + 1][j + 1])) { // 右下
             count++;
+        }
+        return String.valueOf(count);
+    }
+
+    public static String getAroundBom2(int i, int j, String[][] ss) {
+        if ("*".equals(ss[i][j])) {
+            return "*";
+        }
+        int count = 0;
+        int m = ss.length;
+        int n = ss[1].length;
+        // 上
+        if (i - 1 >= 0) {
+            if (ss[i - 1][j].equals("*")) {
+                count++;
+            }
+        }
+        // 下
+        if (i + 1 <= ss.length - 1) {
+            if (ss[i + 1][j].equals("*")) {
+                count++;
+            }
+        }
+        // 左
+        if (j - 1 >= 0) {
+            if (ss[i][j - 1].equals("*")) {
+                count++;
+            }
+        }
+        // 右
+        if (j + 1 <= ss[i].length - 1) {
+            if (ss[i][j + 1].equals("*")) {
+                count++;
+            }
+        }
+        // 左上
+        if (j - 1 >= 0 && i - 1 >= 0) {
+            if (ss[i - 1][j - 1].equals("*")) {
+                count++;
+            }
+        }
+        // 右上
+        if (j + 1 <= ss[i].length - 1 && i - 1 >= 0) {
+            if (ss[i - 1][j + 1].equals("*")) {
+                count++;
+            }
+        }
+        // 左下
+        if (j - 1 >= 0 && i + 1 <= ss.length - 1) {
+            if (ss[i + 1][j - 1].equals("*")) {
+                count++;
+            }
+        }
+        // 右下
+        if (j + 1 <= ss[i].length - 1 && i + 1 <= ss.length - 1) {
+            if (ss[i + 1][j + 1].equals("*")) {
+                count++;
+            }
         }
         return String.valueOf(count);
     }

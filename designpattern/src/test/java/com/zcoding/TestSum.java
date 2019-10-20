@@ -1,5 +1,6 @@
 package com.zcoding;
 
+import java.math.BigInteger;
 import java.util.stream.Stream;
 
 import org.junit.jupiter.api.Test;
@@ -11,7 +12,15 @@ public class TestSum {
 
     @Test
     public void test() {
-        String[] ss = { "1", "2", "3" };
+        String s = "asdsadsagfd";
+        System.out.println(s.indexOf(""));
+        System.out.println(s.split(" ")[1]);
+    }
+
+    @Test
+    public void testx() {
+        String s = "to be or not to be is a question";
+        System.out.println(s.indexOf("to"));
     }
 
     @Test
@@ -25,5 +34,20 @@ public class TestSum {
             count++;
         }
         System.out.println(count);
+    }
+
+    @Test
+    public void test2() {
+
+        System.out.println(-1234 % 10);
+        System.out.println(-1234 / 10);
+    }
+
+    @Test
+    public void test3() {
+        BigInteger a = new BigInteger("87", 9);
+        BigInteger b = new BigInteger("78", 9);
+        System.out.println(a.toString(16));
+        System.out.println(a.add(b));
     }
 }

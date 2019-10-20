@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DeleteString2",
+            "request": "launch",
+            "mainClass": "com.zcoding.DeleteString2",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumReerse",
+            "request": "launch",
+            "mainClass": "com.zcoding.NumReerse",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Count",
             "request": "launch",
             "mainClass": "com.zcoding.Count",
