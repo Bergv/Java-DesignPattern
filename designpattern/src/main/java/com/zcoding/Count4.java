@@ -19,25 +19,47 @@ public class Count4 {
         String w = br.readLine().toLowerCase();
         String l = br.readLine().toLowerCase();
         int c = 0;
-        int first = -1;
+        int index = 0;
 
         String[] ss = l.split(" ");
         for (int i = 0; i < ss.length; i++) {
             if (w.equals(ss[i])) {
                 c++;
-                if (c == 1) {
-                    // first = i;
-                    first = l.indexOf(w);
-                }
+            }
+            if (c < 1) {
+                index += ss[i].length() + 1;
             }
         }
 
         if (c > 0) {
-            System.out.println(c + " " + first);
+            System.out.println(c + " " + index);
         } else {
-            System.out.println(-1);
+            System.out.println("-1");
         }
 
         sc.close();
+    }
+
+    void get2() {
+        Scanner in = new Scanner(System.in);
+        String t = in.nextLine().toLowerCase();
+        String s = in.nextLine().toLowerCase();
+        int c = 0;
+        int index = 0;
+        int flag = 0;
+        String sc[] = s.split(" ");
+        for (int i = 0; i < sc.length; i++) {
+            if (sc[i].equals(t))
+                c++;
+            if (c == 1)
+                flag = 1;
+            if (flag == 0)
+                index += sc[i].length() + 1;
+        }
+        if (c == 0) {
+            System.out.println("-1");
+        } else {
+            System.out.println(c + " " + index);
+        }
     }
 }

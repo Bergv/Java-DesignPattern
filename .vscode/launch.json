@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Count2",
+            "request": "launch",
+            "mainClass": "com.zcoding.Count2",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NtoM",
+            "request": "launch",
+            "mainClass": "com.zcoding.NtoM",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Func",
+            "request": "launch",
+            "mainClass": "com.zcoding.Func",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DeleteString2",
             "request": "launch",
             "mainClass": "com.zcoding.DeleteString2",
