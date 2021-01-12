@@ -2,6 +2,8 @@ package com.designpattern;
 
 import com.designpattern.io.zip.TestZip;
 import com.designpattern.thread.t6.ExamProjectTest;
+import com.zcoding.TestBom;
+import com.zcoding.TestM;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
@@ -16,7 +18,7 @@ import junit.framework.TestSuite;
  */
 
 @RunWith(Suite.class)
-@SuiteClasses({ TestZip.class, ExamProjectTest.class })
+@SuiteClasses({ TestZip.class, ExamProjectTest.class, TestBom.class, TestM.class })
 public class AppTest { // extends TestCase
     // /**
     // * Create the test case

@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Count2",
+            "request": "launch",
+            "mainClass": "com.zcoding.Count2",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NtoM",
+            "request": "launch",
+            "mainClass": "com.zcoding.NtoM",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Func",
+            "request": "launch",
+            "mainClass": "com.zcoding.Func",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DeleteString2",
+            "request": "launch",
+            "mainClass": "com.zcoding.DeleteString2",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumReerse",
+            "request": "launch",
+            "mainClass": "com.zcoding.NumReerse",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Count",
+            "request": "launch",
+            "mainClass": "com.zcoding.Count",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Bom",
+            "request": "launch",
+            "mainClass": "com.zcoding.Bom",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DeleteNum",
+            "request": "launch",
+            "mainClass": "com.zcoding.DeleteNum",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HeapSortAndTopN",
+            "request": "launch",
+            "mainClass": "com.designpattern.topn.HeapSortAndTopN",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - T3",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.T3",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.App",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FilterChain<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.FilterChain",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-T2<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.T2",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.Test",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test2<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.Test2",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestString<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.TestString",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Tt<designpattern>",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.Tt",
+            "projectName": "designpattern"
+        }
+    ]
+}

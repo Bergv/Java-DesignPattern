@@ -1,132 +1,251 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Count2",
-            "request": "launch",
-            "mainClass": "com.zcoding.Count2",
-            "projectName": "designpattern"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - NtoM",
-            "request": "launch",
-            "mainClass": "com.zcoding.NtoM",
-            "projectName": "designpattern"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Func",
-            "request": "launch",
-            "mainClass": "com.zcoding.Func",
-            "projectName": "designpattern"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - DeleteString2",
-            "request": "launch",
-            "mainClass": "com.zcoding.DeleteString2",
-            "projectName": "designpattern"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - NumReerse",
-            "request": "launch",
-            "mainClass": "com.zcoding.NumReerse",
-            "projectName": "designpattern"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Count",
-            "request": "launch",
-            "mainClass": "com.zcoding.Count",
-            "projectName": "designpattern"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Bom",
-            "request": "launch",
-            "mainClass": "com.zcoding.Bom",
-            "projectName": "designpattern"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - DeleteNum",
-            "request": "launch",
-            "mainClass": "com.zcoding.DeleteNum",
-            "projectName": "designpattern"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - HeapSortAndTopN",
-            "request": "launch",
-            "mainClass": "com.designpattern.topn.HeapSortAndTopN",
-            "projectName": "designpattern"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - T3",
-            "request": "launch",
-            "mainClass": "com.designpattern.chain.T3",
-            "projectName": "designpattern"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch) - Current File",
+            "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)-App<designpattern>",
+            "name": "Launch App",
             "request": "launch",
             "mainClass": "com.designpattern.App",
             "projectName": "designpattern"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)-FilterChain<designpattern>",
+            "name": "Launch FilterChain",
             "request": "launch",
             "mainClass": "com.designpattern.chain.FilterChain",
             "projectName": "designpattern"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)-T2<designpattern>",
+            "name": "Launch T2",
             "request": "launch",
             "mainClass": "com.designpattern.chain.T2",
             "projectName": "designpattern"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)-Test<designpattern>",
+            "name": "Launch T3",
+            "request": "launch",
+            "mainClass": "com.designpattern.chain.T3",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
             "request": "launch",
             "mainClass": "com.designpattern.chain.Test",
             "projectName": "designpattern"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)-Test2<designpattern>",
+            "name": "Launch Test2",
             "request": "launch",
             "mainClass": "com.designpattern.chain.Test2",
             "projectName": "designpattern"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)-TestString<designpattern>",
+            "name": "Launch TestString",
             "request": "launch",
             "mainClass": "com.designpattern.chain.TestString",
             "projectName": "designpattern"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)-Tt<designpattern>",
+            "name": "Launch Tt",
             "request": "launch",
             "mainClass": "com.designpattern.chain.Tt",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZipUtil",
+            "request": "launch",
+            "mainClass": "com.designpattern.io.zip.ZipUtil",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeleteFolder",
+            "request": "launch",
+            "mainClass": "com.designpattern.thread.forkjoin.DeleteFolder",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test(1)",
+            "request": "launch",
+            "mainClass": "com.designpattern.thread.t1.Test",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test(2)",
+            "request": "launch",
+            "mainClass": "com.designpattern.thread.t2.Test",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test(3)",
+            "request": "launch",
+            "mainClass": "com.designpattern.thread.t3.Test",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test(4)",
+            "request": "launch",
+            "mainClass": "com.designpattern.thread.t4.Test",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch JoinTest",
+            "request": "launch",
+            "mainClass": "com.designpattern.thread.t5.JoinTest",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch SleepTest",
+            "request": "launch",
+            "mainClass": "com.designpattern.thread.t5.SleepTest",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch StopThread",
+            "request": "launch",
+            "mainClass": "com.designpattern.thread.t5.StopThread",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestYield",
+            "request": "launch",
+            "mainClass": "com.designpattern.thread.t5.TestYield",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeapSortAndTopN",
+            "request": "launch",
+            "mainClass": "com.designpattern.topn.HeapSortAndTopN",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyDowloadTest",
+            "request": "launch",
+            "mainClass": "com.util.download.d1.MyDowloadTest",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDemo",
+            "request": "launch",
+            "mainClass": "com.util.download.d2.TestDemo",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bom",
+            "request": "launch",
+            "mainClass": "com.zcoding.Bom",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Count",
+            "request": "launch",
+            "mainClass": "com.zcoding.Count",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Count2",
+            "request": "launch",
+            "mainClass": "com.zcoding.Count2",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Count3",
+            "request": "launch",
+            "mainClass": "com.zcoding.Count3",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Count4",
+            "request": "launch",
+            "mainClass": "com.zcoding.Count4",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeleteNum",
+            "request": "launch",
+            "mainClass": "com.zcoding.DeleteNum",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeleteString",
+            "request": "launch",
+            "mainClass": "com.zcoding.DeleteString",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeleteString2",
+            "request": "launch",
+            "mainClass": "com.zcoding.DeleteString2",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Func",
+            "request": "launch",
+            "mainClass": "com.zcoding.Func",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetTimes",
+            "request": "launch",
+            "mainClass": "com.zcoding.GetTimes",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch HuiWenShu",
+            "request": "launch",
+            "mainClass": "com.zcoding.HuiWenShu",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch NtoM",
+            "request": "launch",
+            "mainClass": "com.zcoding.NtoM",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumReerse",
+            "request": "launch",
+            "mainClass": "com.zcoding.NumReerse",
             "projectName": "designpattern"
         }
     ]
