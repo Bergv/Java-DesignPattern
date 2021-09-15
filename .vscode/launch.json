@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StreamTest",
+            "request": "launch",
+            "mainClass": "com.designpattern.stream.StreamTest",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.designpattern.thread.forkjoin.Test",
+            "projectName": "designpattern"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

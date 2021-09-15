@@ -3,7 +3,7 @@ package com.util.download.d2;
 import java.io.IOException;
 
 /**
- * @author dongguabai
+ * @author dongguabai  
  * @Description
  * @Date 创建于 2020-01-26 23:42
  */
